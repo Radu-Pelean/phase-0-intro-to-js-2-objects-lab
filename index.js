@@ -6,9 +6,9 @@ employee['name'] = 'Devin';
 employee['streetAddress'] = '11 Broadway';
 
 function updateEmployeeWithKeyAndValue(obj, key, value) {
-    const updateEmployeeWithKeyAndValue = {...obj}
-    updateEmployeeWithKeyAndValue[key] = value;
-    return updateEmployeeWithKeyAndValue;
+    const updatedEmployee = {...obj}
+    updatedEmployee[key] = value;
+    return updatedEmployee;
 }
 
 function destructivelyUpdateEmployeeWithKeyAndValue(obj, key, value) {
